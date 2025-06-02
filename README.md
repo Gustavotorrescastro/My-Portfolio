@@ -1,58 +1,50 @@
-# Portfólio de Gustavo Torres Castro
+# Meu Portfólio
 
-Bem-vindo ao repositório do código-fonte do meu portfólio pessoal! Aqui você encontrará os arquivos HTML, CSS e JavaScript que compõem o site que apresenta minhas informações, projetos e certificados.
+Um portfólio para você conhecer um pouco mais sobre mim.
+## Portfólio – Gustavo Torres Castro
 
-## 🙋‍♂️ Sobre Mim
-Meu nome é Gustavo Torres Castro, tenho 18 anos e sou estudante do primeiro período de Ciência da Computação na CESAR School. Tenho interesse em desenvolvimento de jogos, engenharia de software e tecnologias emergentes como Web3.
+Bem-vindo ao repositório do meu portfólio pessoal! Aqui você encontrará três páginas HTML principais que apresentam minhas informações, certificados e um projeto chamado Recife de Memórias. Este README explica a estrutura do projeto e as tecnologias utilizadas.
 
-Escolhi a área de tecnologia por acreditar no seu potencial de transformar o mundo quando aplicada de forma eficaz. Um exemplo disso é o jogo "Recife de Memórias", que desenvolvi recentemente para estimular a memória de curto e longo prazo de pessoas idosas com demência.
+### Descrição
 
-Você pode encontrar meu perfil no GitHub através [deste link](https://github.com/Gustavotorrescastro).
+Este portfólio foi desenvolvido para exibir:
 
-## 📂 Estrutura do Portfólio
-O portfólio está organizado nos seguintes arquivos principais:
+* **Página Inicial (`index.html`)**
+    * Seção “Sobre mim”: Breve apresentação pessoal, incluindo idade, formação e interesses como desenvolvimento de jogos, engenharia de software e Web3.
+    * Seção “Meus certificados”: Link para uma página (`certificados.html`) com os certificados de Python e JavaScript obtidos na Cisco Networking Academy em parceria com a CESAR School.
+    * Seção “Meus projetos”: Apresenta o projeto "Recife de memórias" (com link para `recife.html`) e o projeto "CRUD of Animals" (com link para seu repositório GitHub).
+    * Seção “Contato”: Informações de contato, incluindo e-mail e LinkedIn.
+    * Botão "My GitHub" que redireciona para o perfil do GitHub.
 
-* `index.html`: A página inicial que agrega todas as seções principais: "Sobre mim", "Meus certificados", "Meus projetos" e "Contato".
-* `certificados.html`: Uma página dedicada à exibição dos meus certificados.
-* `recife.html`: Uma página detalhada sobre o projeto "Recife de Memórias".
-* `style.css`: Arquivo de estilos CSS responsável pela aparência visual de todas as páginas.
+* **Certificados (`certificados.html`)**
+    * Exibição dos certificados dos cursos “Fundamentos do Python 1” e “JavaScript Essentials 1”.
+    * Cada certificado é apresentado como uma imagem.
 
-## ✨ Projetos em Destaque
+* **Projeto: Recife de Memórias (`recife.html`)**
+    * Descrição detalhada do projeto “Recife de Memórias”:
+        * **O que é:** Um jogo interativo sensorial que usa tecnologia acessível para estimular cognição e afeto, funcionando como uma ponte entre passado e presente para resgatar identidades e honrar histórias.
+        * **Como funciona:** Baseado em uma jornada por pontos turísticos do Bairro do Recife (Marco Zero, Cais do Sertão, etc.), onde o jogador identifica locais descritos em uma narração e os seleciona em um mapa através de botões coloridos, devendo repetir a sequência ao final.
+        * **Diferencial:** Ferramenta terapêutica humanizada, intuitiva e culturalmente enraizada, que ativa memórias, estimula atenção e promove interação social.
+    * Links para o GitHub do projeto e para o site do projeto.
 
-### Recife de Memórias
-"Recife de Memórias" é um jogo interativo sensorial que utiliza tecnologia acessível para estimular a cognição e o afeto. O projeto busca ser uma ponte entre passado e presente, resgatando identidades, honrando histórias e cuidando com afeto e tecnologia.
+### Estrutura do Repositório
 
-A experiência do jogo é baseada em uma jornada por pontos turísticos icônicos do Bairro do Recife, como Marco Zero, Cais do Sertão, Parque das Esculturas, Rua do Bom Jesus e Forte do Brum. Através de narração, o jogador identifica o local descrito, encontra-o no mapa e pressiona o botão da cor correspondente. Após identificar corretamente 5 pontos, o usuário deve repetir a sequência de botões pressionados. O jogo é uma ferramenta terapêutica que ativa memórias de curto e longo prazo, estimula a atenção e promove a interação social.
+* `index.html`: Página principal do portfólio.
+* `certificados.html`: Página que exibe os certificados de Python e JavaScript.
+* `recife.html`: Página dedicada ao projeto Recife de Memórias, com descrição detalhada e links.
+* `style.css`: Folha de estilos global que define cores, fontes e layout (utilizando Flexbox).
+* `Captura de tela 2025-06-02 010523.png` (referenciado em `certificados.html`): Imagem do certificado de Python. (Nota: o arquivo carregado é `.jpg` mas o HTML referencia `.png`)
+* `Captura de tela 2025-06-02 110231.png`: Imagem do certificado de JavaScript.
+* `README.md`: Este arquivo de documentação.
 
-* **Site do Projeto:** [Recife de Memórias](https://sites.google.com/cesar.school/g9-site/in%C3%ADcio)
-* **GitHub do Projeto:** [LHFalcao/Recife_de_Memorias](https://github.com/LHFalcao/Recife_de_Memorias/tree/main)
+### Tecnologias Utilizadas
 
-### CRUD de Animais
-Este é um projeto de um sistema para gerenciamento de animais, eventos, metas, lista de compras e sugestões de cuidados.
-* **GitHub do Projeto:** [BrunoAU/CRUD_animais](https://github.com/BrunoAU/CRUD_animais)
-
-## 📜 Certificados
-Possuo alguns certificados de cursos oferecidos pela Cisco Networking Academy, em parceria com a CESAR School.
-
-* **Fundamentos do Python 1**
-    * Oferecido pela CESAR School através do programa Cisco Networking Academy.
-    * Data de Conclusão: 27 de abril de 2025.
-* **JavaScript Essentials 1**
-    * Oferecido pela CESAR School através do programa Cisco Networking Academy.
-    * Data de Conclusão: 02 de junho de 2025.
-
-Você pode visualizar os certificados na página [Meus certificados](certificados.html).
-
-## 💻 Tecnologias Utilizadas (neste portfólio)
-* HTML
-* CSS
-* JavaScript (para funcionalidades de botões e navegação)
-
-## 🚀 Como Visualizar
-Para visualizar este portfólio:
-1.  Clone este repositório (ou faça o download dos arquivos).
-2.  Abra o arquivo `index.html` em seu navegador de preferência.
-
-## 📫 Contato
-* **Email:** [gustavotorrescastro@gmail.com](mailto:gustavotorrescastro@gmail.com)
-* **LinkedIn:** [Gustavo Torres Castro](https://www.linkedin.com/in/gustavotorrescastro)
+* **HTML5**
+    * Uso de tags como `<h1>`, `<h2>`, `<p>`, `<ul>`, `<li>`, `<section>`, `<a>` e `<button>` para estruturar o conteúdo.
+* **CSS3**
+    * Estilização dos elementos, cores e fontes.
+    * Layout construído utilizando `Flexbox` para organizar os elementos nas páginas.
+* **JavaScript (Vanilla)**
+    * Manipulação básica do DOM e eventos de clique para navegação entre páginas e para links externos (ex: botões que redirecionam para URLs específicas).
+* **Sem dependências externas**
+    * O portfólio foi construído utilizando HTML, CSS e JavaScript puros ("vanilla"), sem o uso de frameworks ou bibliotecas externas.
