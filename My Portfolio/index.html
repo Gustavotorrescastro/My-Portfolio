@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Gustavo Torres Castro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>My portfolio</h1>
+
+  <div class="nav-links">
+    <a href="#about">About me</a> |
+    <a href="#certificates">My certificates</a> |
+    <a href="#projects">My projects</a> |
+    <a href="#contact">Contact</a>
+  </div>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>My name is Gustavo Torres Castro, I am 18 years old, and I am a first-semester Computer Science student at CESAR School. I am 
+        interested in game development, software engineering, and emerging technologies such as Web3.
+    </p>
+    <p>I chose the field of technology because I believe in its potential to transform the world when applied effectively. An example
+        of this is the game "Recife de Memórias", which I recently developed to stimulate the short- and long-term memory of elderly people with dementia.
+    </p>
+        <ul>
+            <li>
+                <button id="gitbutton">My GitHub</button>
+            </li>
+        <script>
+        const button4 = document.getElementById('gitbutton');
+        button4.addEventListener('click', () => {
+            window.location.href = 'https://github.com/Gustavotorrescastro';
+        });
+        </script>
+  </section>
+
+  <section id="certificates">
+    <h2>My certificates</h2>
+    <p>I have some certificates from courses offered by Cisco Networking Academy, in partnership with CESAR School.</p>
+    <p><button onclick="window.location.href='certificados.html'">View my certificates</button></p>
+  </section>
+
+  <section id="projects">
+    <h2>My projects</h2>
+    <ul>
+      <li>
+        <button onclick="window.location.href='recife.html'">Recife de memórias</button>
+      <li>
+        <button id="crudbutton">CRUD of Animals</button>
+      </li>
+    </ul>
+    <script>
+      const button3 = document.getElementById('crudbutton');
+      button3.addEventListener('click', () => {
+        window.location.href = 'https://github.com/BrunoAU/CRUD_animais';
+      });
+    </script>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:gustavotorrescastro@gmail.com">gustavotorrescastro@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/gustavotorrescastro" target="_blank">Gustavo Torres Castro</a></p>
+  </section>
+</body>
+</html>
