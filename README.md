@@ -1,50 +1,50 @@
-# Meu Portfólio
+# My Portfolio
 
-Um portfólio para você conhecer um pouco mais sobre mim.
-## Portfólio – Gustavo Torres Castro
+A portfolio for you to get to know me a little better.
+## Portfolio – Gustavo Torres Castro
 
-Bem-vindo ao repositório do meu portfólio pessoal! Aqui você encontrará três páginas HTML principais que apresentam minhas informações, certificados e um projeto chamado Recife de Memórias. Este README explica a estrutura do projeto e as tecnologias utilizadas.
+Welcome to my personal portfolio repository! Here you will find three main HTML pages that present my information, certificates, and a project called Recife de Memórias. This README explains the project structure and the technologies used.
 
-### Descrição
+### Description
 
-Este portfólio foi desenvolvido para exibir:
+This portfolio was developed to display:
 
-* **Página Inicial (`index.html`)**
-    * Seção “Sobre mim”: Breve apresentação pessoal, incluindo idade, formação e interesses como desenvolvimento de jogos, engenharia de software e Web3.
-    * Seção “Meus certificados”: Link para uma página (`certificados.html`) com os certificados de Python e JavaScript obtidos na Cisco Networking Academy em parceria com a CESAR School.
-    * Seção “Meus projetos”: Apresenta o projeto "Recife de memórias" (com link para `recife.html`) e o projeto "CRUD of Animals" (com link para seu repositório GitHub).
-    * Seção “Contato”: Informações de contato, incluindo e-mail e LinkedIn.
-    * Botão "My GitHub" que redireciona para o perfil do GitHub.
+* **Home Page (`index.html`)**
+    * “About Me” Section: Brief personal introduction, including age, education, and interests such as game development, software engineering, and Web3.
+    * “My Certificates” Section: Link to a page (`certificados.html`) with Python and JavaScript certificates obtained from Cisco Networking Academy in partnership with CESAR School.
+    * “My Projects” Section: Presents the "Recife de Memórias" project (with a link to `recife.html`) and the "CRUD of Animals" project (with a link to its GitHub repository).
+    * “Contact” Section: Contact information, including email and LinkedIn.
+    * "My GitHub" button that redirects to the GitHub profile.
 
-* **Certificados (`certificados.html`)**
-    * Exibição dos certificados dos cursos “Fundamentos do Python 1” e “JavaScript Essentials 1”.
-    * Cada certificado é apresentado como uma imagem.
+* **Certificates (`certificados.html`)**
+    * Displays certificates for the “Python Fundamentals 1” and “JavaScript Essentials 1” courses.
+    * Each certificate is presented as an image.
 
-* **Projeto: Recife de Memórias (`recife.html`)**
-    * Descrição detalhada do projeto “Recife de Memórias”:
-        * **O que é:** Um jogo interativo sensorial que usa tecnologia acessível para estimular cognição e afeto, funcionando como uma ponte entre passado e presente para resgatar identidades e honrar histórias.
-        * **Como funciona:** Baseado em uma jornada por pontos turísticos do Bairro do Recife (Marco Zero, Cais do Sertão, etc.), onde o jogador identifica locais descritos em uma narração e os seleciona em um mapa através de botões coloridos, devendo repetir a sequência ao final.
-        * **Diferencial:** Ferramenta terapêutica humanizada, intuitiva e culturalmente enraizada, que ativa memórias, estimula atenção e promove interação social.
-    * Links para o GitHub do projeto e para o site do projeto.
+* **Project: Recife de Memórias (`recife.html`)**
+    * Detailed description of the “Recife de Memórias” project:
+        * **What it is:** A sensory interactive game that uses accessible technology to stimulate cognition and affection, acting as a bridge between past and present to reclaim identities and honor stories.
+        * **How it works:** Based on a journey through iconic tourist spots in Bairro do Recife (Marco Zero, Cais do Sertão, etc.), where the player identifies locations described in a narration and selects them on a map using colored buttons, having to repeat the sequence at the end.
+        * **Key Feature:** A humanized, intuitive, and culturally rooted therapeutic tool that activates memories, stimulates attention, and promotes social interaction.
+    * Links to the project's GitHub and website.
 
-### Estrutura do Repositório
+### Repository Structure
 
-* `index.html`: Página principal do portfólio.
-* `certificados.html`: Página que exibe os certificados de Python e JavaScript.
-* `recife.html`: Página dedicada ao projeto Recife de Memórias, com descrição detalhada e links.
-* `style.css`: Folha de estilos global que define cores, fontes e layout (utilizando Flexbox).
-* `Captura de tela 2025-06-02 010523.png` (referenciado em `certificados.html`): Imagem do certificado de Python. (Nota: o arquivo carregado é `.jpg` mas o HTML referencia `.png`)
-* `Captura de tela 2025-06-02 110231.png`: Imagem do certificado de JavaScript.
-* `README.md`: Este arquivo de documentação.
+* `index.html`: Main portfolio page.
+* `certificados.html`: Page displaying Python and JavaScript certificates.
+* `recife.html`: Page dedicated to the Recife de Memórias project, with a detailed description and links.
+* `style.css`: Global stylesheet that defines colors, fonts, and layout (using Flexbox).
+* `Captura de tela 2025-06-02 010523.png` (referenced in `certificados.html`): Image of the Python certificate. (Note: the uploaded file is `.jpg` but the HTML references `.png`)
+* `Captura de tela 2025-06-02 110231.png`: Image of the JavaScript certificate.
+* `README.md`: This documentation file.
 
-### Tecnologias Utilizadas
+### Technologies Used
 
 * **HTML5**
-    * Uso de tags como `<h1>`, `<h2>`, `<p>`, `<ul>`, `<li>`, `<section>`, `<a>` e `<button>` para estruturar o conteúdo.
+    * Use of tags like `<h1>`, `<h2>`, `<p>`, `<ul>`, `<li>`, `<section>`, `<a>`, and `<button>` to structure content.
 * **CSS3**
-    * Estilização dos elementos, cores e fontes.
-    * Layout construído utilizando `Flexbox` para organizar os elementos nas páginas.
+    * Styling of elements, colors, and fonts.
+    * Layout built using `Flexbox` to organize elements on the pages.
 * **JavaScript (Vanilla)**
-    * Manipulação básica do DOM e eventos de clique para navegação entre páginas e para links externos (ex: botões que redirecionam para URLs específicas).
-* **Sem dependências externas**
-    * O portfólio foi construído utilizando HTML, CSS e JavaScript puros ("vanilla"), sem o uso de frameworks ou bibliotecas externas.
+    * Basic DOM manipulation and click events for navigation between pages and for external links (e.g., buttons that redirect to specific URLs).
+* **No external dependencies**
+    * The portfolio was built using pure ("vanilla") HTML, CSS, and JavaScript, without the use of external frameworks or libraries.
