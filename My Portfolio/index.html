@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carregando Portfólio...</title>
+    <script>
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith('pt')) {
+            window.location.replace('index_pt.html');
+        } else {
+            window.location.replace('index_en.html');
+        }
+    </script>
+</head>
+<body>
+    <p>Loading...</p>
+</body>
+</html>

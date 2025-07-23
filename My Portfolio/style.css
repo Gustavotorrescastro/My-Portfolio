@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --bg-color: #f4f7f9;
+    --surface-color: #ffffff;
+    --primary-color: #1a253c;
+    --accent-color: #03316a;
+    --heading-color: #03316a;
+    --text-color: #5b6478;
+    --border-color: #e2e8f0;
+    --shadow-color: rgba(26, 37, 60, 0.1);
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+}
+
+[data-theme='dark'] {
+    --bg-color: #0d1117;
+    --surface-color: #161b22;
+    --primary-color: #306BAC;
+    --accent-color: #58A6FF;
+    --heading-color: #c9d1d9;
+    --text-color: #8b949e;
+    --border-color: #30363d;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.7;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3 {
+    color: #03316a;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+/* ÚNICA MUDANÇA ESTÁ AQUI */
+header {
+    background: linear-gradient(135deg, #031c3a, #03316a); /* Cores aplicadas diretamente */
+    color: #fff;
+    text-align: center;
+    padding: 100px var(--spacing-md) 60px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+header p {
+    color: #fff;
+    font-size: 1.25rem;
+    margin-top: var(--spacing-sm);
+    animation: fadeInUp 0.8s ease-out 0.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.8rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+[data-theme='dark'] nav {
+    background: rgba(27, 34, 44, 0.7);
+    border-bottom: 1px solid var(--border-color);
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav a {
+    color: var(--heading-color);
+    text-decoration: none;
+    padding: var(--spacing-sm) 4px;
+    font-weight: 600;
+    border-radius: 0;
+    transition: color 0.3s;
+    position: relative;
+    margin: 0 10px;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+
+section {
+    padding: var(--spacing-lg) 0 60px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    margin: 8px auto 0;
+}
+
+.card {
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    box-shadow: 0 4px 12px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 0.5s ease-out;
+    animation-fill-mode: both;
+}
+.card:nth-child(2) { animation-delay: 0.1s; }
+.card:nth-child(3) { animation-delay: 0.2s; }
+
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px var(--shadow-color);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.skills-list li {
+    background: var(--surface-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.skills-list li:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+footer {
+    background: var(--surface-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid var(--border-color);
+    margin-top: auto;
+}
+
+.social-links {
+    margin-top: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+footer .social-links a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 8px;
+    min-width: 180px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+footer .social-links a i {
+    margin-right: var(--spacing-md);
+    font-size: 2.2rem;
+    width: 35px;
+    text-align: center;
+}
+
+.card .certificate-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: var(--spacing-md);
+}
+
+.theme-switcher button {
+    background: var(--surface-color);
+    color: var(--heading-color);
+    border: 1px solid var(--border-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.theme-switcher button:hover {
+    transform: scale(1.1) rotate(15deg);
+}
+
+.language-switcher button,
+.language-switcher span {
+    color: var(--heading-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.language-switcher button:hover {
+     background-color: var(--primary-color);
+     color: #fff;
+}
+
+.card .education-degree {
+    color: #03316a;
+}
+
+[data-theme='dark'] .card .education-degree {
+    color: #58A6FF;
+}
+
+/* Adicione estas novas regras ao seu style.css */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* Garante que funcione bem em telas menores */
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* A mágica para criar a "bola" */
+    border: 5px solid #fff;
+    object-fit: cover; /* Garante que a imagem não fique distorcida */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header-text {
+    text-align: left;
+}
