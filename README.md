@@ -1,6 +1,6 @@
 # Gustavo Torres Castro - Personal Portfolio
 
-[[My Portfolio](https://gustavotorrescastro.netlify.app/index_en)
+[My Portfolio](https://gustavotorrescastro.netlify.app/index_en)
 
 Welcome to the repository for my personal portfolio website. This project is a static web application designed to showcase my skills, projects, and academic background. It is built from the ground up using vanilla HTML, CSS, and JavaScript, demonstrating a strong foundation in core web technologies.
 
