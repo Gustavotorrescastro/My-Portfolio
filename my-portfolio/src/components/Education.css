@@ -1,0 +1,55 @@
+.education-bento-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.education-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.education-indicator {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.education-degree {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.education-school {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.education-status {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

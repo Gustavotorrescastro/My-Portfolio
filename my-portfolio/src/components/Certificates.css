@@ -1,0 +1,80 @@
+.certificates-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.certificate-card {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+}
+
+.certificate-image-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.certificate-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: calc(var(--bento-radius) - 0.5rem);
+  transition: transform 0.5s ease;
+}
+
+.certificate-card:hover .certificate-image-wrapper img {
+  transform: scale(1.05);
+}
+
+.certificate-pdf-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: var(--transition-smooth);
+}
+
+.certificate-pdf-link:hover {
+  color: var(--accent-color);
+}
+
+.certificate-pdf-icon {
+  opacity: 0.6;
+  transition: var(--transition-smooth);
+}
+
+.certificate-pdf-link:hover .certificate-pdf-icon {
+  opacity: 1;
+  color: var(--accent-color);
+  filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.4));
+}
+
+.certificate-pdf-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.certificate-pdf-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--pill-radius);
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  color: var(--accent-color);
+}
