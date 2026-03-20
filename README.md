@@ -1,27 +1,58 @@
 # Gustavo Torres Castro - Personal Portfolio
 
-Welcome to the repository for my [personal portfolio website](https://gustavotorrescastro.netlify.app/index_en). This project is a static web application designed to showcase my skills, projects, and academic background. It is built from the ground up using vanilla HTML, CSS, and JavaScript, demonstrating a strong foundation in core web technologies.
+Welcome to the repository for my personal portfolio website. This project is a modern web application designed to showcase my skills, projects, and academic background. It has recently been completely rebuilt from the ground up using **React and Vite** to deliver a premium, responsive, and highly dynamic user experience.
 
 ## 🚀 Key Features
 
-* **🌐 Fully Bilingual**: Full content available in both English (EN) and Portuguese (PT).
-* **🌗 Light/Dark Theme**: A sleek theme switcher allows users to toggle between light and dark modes. The user's preference is persisted across sessions using `localStorage`.
-* **📱 Fully Responsive Design**: The layout is built with modern CSS (Flexbox) to ensure a seamless experience across all devices, from mobile phones to desktops.
-* **📜 Dynamic Navigation Bar**: The navigation bar becomes sticky and translucent on scroll for an improved user experience and cleaner look.
-* **✨ Zero Dependencies**: Built purely with vanilla HTML, CSS, and JavaScript, making it lightweight, fast, and dependency-free.
+* **🌐 Bilingual Support**: Full content available in both English (EN) and Portuguese (PT), accessible via a seamless toggle.
+* **📱 Fully Responsive Design**: A modern, flexible layout that ensures a perfect viewing experience across all devices, from mobile phones to high-resolution desktops.
+* **✨ Modern Aesthetics**: Sleek design featuring glassmorphism, gradient meshes, subtle hover animations, and a polished UI inspired by modern tech aesthetics.
+* **⚡ Blazing Fast Performance**: Powered by Vite and React, ensuring rapid load times and smooth page transitions.
+* **📜 Dynamic Navigation**: Sticky and translucent navigation bar that enhances user experience while scrolling.
+* **🎓 Component-Based Architecture**: Built with modular, reusable React components for easy maintenance and scalability.
 
 ## 🛠️ Technologies Used
 
-This project was built using a curated set of core web technologies, with no external frameworks or libraries.
-
-| Technology         | Description                                                                                                                                                                                                      |
-| :----------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **HTML5** | Used for structuring the content with semantic tags like `<nav>`, `<main>`, and `<section>`.                                                                                                                       |
-| **CSS3** | Responsible for all styling, including: <br> • **Flexbox** for responsive layouts. <br> • **CSS Variables** for efficient and scalable theme management (light/dark). <br> • **Transitions** for smooth animations and a polished feel. |
-| **JavaScript (ES6+)** | Powers the site's interactivity: <br> • DOM manipulation for dynamic features. <br> • `localStorage` API for theme persistence. <br> • Browser API (`navigator.language`) for language detection. <br> • Event listeners for user interactions (clicks, scroll). |
-| **Bootstrap Icons**| Used for clean, modern iconography throughout the application.                                                                                                                                                    |
-| **Netlify** | Used for continuous deployment and hosting of the live site.                                                                                                                                                     |
+| Technology | Description |
+| :--- | :--- |
+| **React** | Core library for building the interactive user interface and component-based architecture. |
+| **Vite** | Next-generation frontend tooling for a blazingly fast development and build experience. |
+| **CSS3** | Custom styling utilizing CSS variables, flexbox, grid, and advanced transitions/animations (no heavy external CSS frameworks used). |
+| **Lucide React** | Beautiful, consistent, and lightweight typography and iconography throughout the application. |
+| **JavaScript (ES6+)** | Handles application logic, state management (e.g., language selection), and interactivity. |
+| **Node.js & npm** | Used for package management and running the local development server. |
 
 ## 📁 Project Structure
 
-The repository is organized to support a bilingual structure, with clear separation between language-specific pages and shared assets.
+The project is structured around a central `src/` directory containing the application's source code:
+
+* `src/components/`: Houses all the sections of the portfolio (Hero, About, Skills, Projects, Certificates, Education, Contact) and layout elements (Header, Footer).
+* `src/App.jsx`: The main application component, orchestrating the global layout and state.
+* `src/main.jsx`: The entry point for the React application.
+* `public/`: Contains static assets like CVs in PDF format and certificate images.
+
+## 💻 How to Run Locally
+
+If you'd like to run this project on your local machine:
+
+1. **Clone the repository**: 
+   ```bash
+   git clone https://github.com/Gustavotorrescastro/My-Portfolio.git
+   ```
+2. **Navigate to the project sub-directory**: 
+   ```bash
+   cd "My-Portfolio/my-portfolio"
+   ```
+   *(Note: Adjust the path if you cloned it to a different directory name)*
+3. **Install dependencies**: 
+   ```bash
+   npm install
+   ```
+4. **Start the development server**: 
+   ```bash
+   npm run dev
+   ```
+5. **Open your browser** and visit the local address provided in the terminal (usually `http://localhost:5173/`).
+
+---
+Built with 🩵 by [Gustavo Torres Castro](https://github.com/Gustavotorrescastro)
