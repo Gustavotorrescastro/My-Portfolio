@@ -1,6 +1,6 @@
 # Gustavo Torres Castro - Personal Portfolio
 
-Welcome to the repository for my personal portfolio website. This project is a modern web application designed to showcase my skills, projects, and academic background. It has recently been completely rebuilt from the ground up using **React and Vite** to deliver a premium, responsive, and highly dynamic user experience.
+Welcome to the repository for **my personal portfolio** ([https://gustavotorrescastro.vercel.app/](https://gustavotorrescastro.vercel.app/)). This project is a modern web application designed to showcase my skills, projects, and academic background. It has recently been completely rebuilt from the ground up using **React and Vite** to deliver a premium, responsive, and highly dynamic user experience.
 
 ## 🚀 Key Features
 
@@ -55,4 +55,4 @@ If you'd like to run this project on your local machine:
 5. **Open your browser** and visit the local address provided in the terminal (usually `http://localhost:5173/`).
 
 ---
-Built with 🩵 by [Gustavo Torres Castro](https://github.com/Gustavotorrescastro)
+Built by [Gustavo Torres Castro](https://github.com/Gustavotorrescastro)
